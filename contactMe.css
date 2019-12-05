@@ -29,15 +29,13 @@ body, html{
 }
 
 /* CSS for the Nav Bar */
-nav{
+nav ul{
     position: fixed;
     top: 0px;
     left: 0px;
     margin: 0 auto;
     width:100%;
     background-color:black;
-}
-nav ul{
     list-style-type: none;
     text-align: right;
 }
@@ -55,41 +53,25 @@ nav ul li a {
 nav ul li a:hover{
     color:red;
 }
-#tom{
-    color:white;
-    text-shadow: 2px 1px red;
-    font-family: sans-serif;
-    font-size: 40px;
-    float: left;
-    margin: 1%;
-}
 
 /* Main Div for the Top section on the page */
-
 .pimg1{
-    background:#2A2E39;
-    min-height: 100%;
+    background:red;
+    min-height: 70%;
 }
 
 .pimg2{
-    background:white;
+    background: whitesmoke;
     min-height: 400px;
 }
-.section{
+/* Details is for the second section down the page */
+.Details{
     text-align: center;
     padding: 50px 80px;
+    background: whitesmoke
 }
 
-.section-light{
-    background: #f4f4f4;
-    color: #666
-}
-
-.section-dark{
-    background: #282e34;
-    color: #ddd;
-}
-
+/* Main text - Explaining what the page is for */
 .ptext{
     position: absolute;
     top: 50px;
@@ -100,26 +82,12 @@ nav ul li a:hover{
     letter-spacing: 8px;
     text-transform: uppercase;
 }
-
 .ptext, .border, .trans {
     background: transparent;
 }
-
-/* Main text at the top of the page */
 .border{
     color: white;   
 }
-
 .border span{
     color: black;
-}
-
-/* images of me etc  */
-img{
-    margin:1%;
-    position: relative;
-}
-
-img:hover{
-    transform: scale(1.2);
 }
